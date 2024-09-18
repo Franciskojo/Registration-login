@@ -1,5 +1,6 @@
+
 //Get form element by id
-const registerForm = document.querySelector("#register");
+const registerForm = document.querySelector("#login");
 // Handle form submit event
 registerForm.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -22,3 +23,12 @@ function squareAge(age) {
 
 const squaredAge = squareAge(54);
 console.log(squaredAge);
+//   Write fullname function
+function fullName(firstName, lastName) {
+    // return firstName + lastName;
+    return `${firstName} ${lastName}`;
+}
+
+const myName = fullName("Francis", 'Amekeh');
+console.log(myName);
+
